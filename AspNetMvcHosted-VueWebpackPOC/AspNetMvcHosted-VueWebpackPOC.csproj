@@ -211,8 +211,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".eslintrc.js" />
+    <Content Include=".postcssrc.js" />
+    <Content Include="build\build.js" />
+    <Content Include="build\check-versions.js" />
+    <Content Include="build\logo.png" />
+    <Content Include="build\utils.js" />
+    <Content Include="build\vue-loader.conf.js" />
+    <Content Include="build\webpack.base.conf.js" />
+    <Content Include="build\webpack.dev.conf.js" />
+    <Content Include="build\webpack.prod.conf.js" />
+    <Content Include="build\webpack.test.conf.js" />
+    <Content Include="config\dev.env.js" />
+    <Content Include="config\index.js" />
+    <Content Include="config\prod.env.js" />
+    <Content Include="config\test.env.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="src\assets\logo.png" />
+    <Content Include="src\main.js" />
+    <Content Include="src\router\index.js" />
+    <Content Include="test\e2e\custom-assertions\elementCount.js" />
+    <Content Include="test\e2e\nightwatch.conf.js" />
+    <Content Include="test\e2e\runner.js" />
+    <Content Include="test\e2e\specs\test.js" />
+    <Content Include="test\unit\index.js" />
+    <Content Include="test\unit\karma.conf.js" />
+    <Content Include="test\unit\specs\HelloWorld.spec.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -229,7 +254,15 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_Data\todos.json" />
+    <Content Include=".babelrc" />
+    <Content Include=".editorconfig" />
+    <Content Include=".eslintignore" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
     <None Include="README.md" />
+    <Content Include="src\App.vue" />
+    <Content Include="src\components\HelloWorld.vue" />
+    <Content Include="test\unit\.eslintrc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
