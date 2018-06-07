@@ -1,4 +1,4 @@
-﻿# ASP.NET MVC Hosted Vue.js Webpack Template
+# ASP.NET MVC Hosted Vue.js Webpack Template
 
 ## Scope
 
@@ -11,8 +11,11 @@ to generate the template with the injected transpiled css and js manifest refere
 * WebAPI 5.2.3
 * ASP.NET MVC 5.2.3
 * Vue JS 2.5.2
+* Babel Polyfill 6.26.0
 * Bootstrap 3.3.7
 * Vue Router 3.0.1
+* Vuex 3.0.1
+* Axios 0.18.0
 
 ## Purpose
 
