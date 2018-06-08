@@ -23,9 +23,20 @@ To teams to get up and running a bit quicker with an ASP.NET MVC shell applicati
 
 ## Team Objectives
 
-* Fork the POC
+* Clone the POC
 * Set up Authentication
 * Set up Database connections
 * Set up any other configuration(s)
-* Set up IIS
 * Develop application
+
+## Get Started
+
+### Clone the POC
+
+`git clone https://github.com/sjtipton/AspNetMvcHosted-VueWebpackPOC`
+
+You now have a skeleton ASP.NET MVC-hosted Vue.js Webpack templated application that you can utilize to spin up (e.g. copy over to a new project folder and initialize a new repository with) to easily get started with.
+
+### Setting Up Your IIS Endpoint Locally with this Repo
+
+This POC is configured to use the IIS endpoint `/VueWebpackPoc/`, reachable on `http://localhost:80/` on the `DefaultAppPool`. No other settings are necessary, aside from pointing the application to the `AspNetMvcHost-VueWebpackPOC` **Project** once you have cloned it.
