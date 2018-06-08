@@ -10,7 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {}, // https://webpack.js.org/configuration/dev-server/#devserver-proxy
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -44,8 +44,11 @@ module.exports = {
   },
 
   build: {
-    // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),
+    // Template for backend-framework (http://vuejs-templates.github.io/webpack/backend.html)
+    index: path.resolve(__dirname, '../Views/Home/Index.cshtml'),
+
+    // For ASP.NET MVC IIS Host, application name
+    hostingApplicationName: 'VueWebpackPoc',
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
